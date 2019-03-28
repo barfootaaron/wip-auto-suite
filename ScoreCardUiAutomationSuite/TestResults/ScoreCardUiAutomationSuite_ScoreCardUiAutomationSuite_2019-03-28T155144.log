@@ -1,0 +1,108 @@
+﻿2019-03-28T15:51:44.7340215-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-03-28T15:51:44.7350169-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.255 in Framework clr40 in x86 mode execution started
+2019-03-28T15:51:44.7350169-05:00;VSTestExecutionThread;Info;TestAdapter Location: D:\specflow-protractor-sc-poc\ScoreCardUiAutomationSuite\packages\SpecRun.Runner.3.0.255\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-28T15:51:44.8980308-05:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\specflow-protractor-sc-poc\ScoreCardUiAutomationSuite\ScoreCardUiAutomationSuite\bin\Debug\ScoreCardUiAutomationSuite.dll
+2019-03-28T15:51:44.8980308-05:00;VSTestExecutionThread;Info;Output folder configured to "D:\specflow-protractor-sc-poc\ScoreCardUiAutomationSuite\TestResults" (default)
+2019-03-28T15:51:44.8980308-05:00;VSTestExecutionThread;Info;Profile: ScoreCardUiAutomationSuite
+2019-03-28T15:51:44.9270363-05:00;VSTestExecutionThread;Info;Log file path: D:\specflow-protractor-sc-poc\ScoreCardUiAutomationSuite\TestResults\ScoreCardUiAutomationSuite_ScoreCardUiAutomationSuite_2019-03-28T155144.log
+2019-03-28T15:51:44.9400353-05:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-03-28T15:51:44.9480325-05:00;Thread#14;Info;Checking license
+2019-03-28T15:51:44.9720350-05:00;Thread#14;Info;Evaluation mode: test execution starts in 9 seconds... (this delay is removed in the registered version)
+2019-03-28T15:51:53.9738275-05:00;Thread#14;Info;Evaluation delay finished.
+2019-03-28T15:51:53.9808293-05:00;Thread#14;Info;License check completed
+2019-03-28T15:51:53.9808293-05:00;Thread#14;Info;starting test run
+2019-03-28T15:51:54.0188272-05:00;Thread#14;Info;Discovering target: Default
+2019-03-28T15:51:54.0188272-05:00;Thread#14;Info;Discovering tests from assembly: D:\specflow-protractor-sc-poc\ScoreCardUiAutomationSuite\ScoreCardUiAutomationSuite\bin\Debug\ScoreCardUiAutomationSuite.dll
+2019-03-28T15:51:54.5968828-05:00:Appdomain Disposed
+2019-03-28T15:51:54.5968828-05:00;Thread#14;Info;Discovered tests from assembly: D:\specflow-protractor-sc-poc\ScoreCardUiAutomationSuite\ScoreCardUiAutomationSuite\bin\Debug\ScoreCardUiAutomationSuite.dll
+2019-03-28T15:51:54.5978734-05:00:Test Suite Dump
+2019-03-28T15:51:54.5998770-05:00:#0: ScoreCardUiAutomationSuite/ScoreCardUiAutomationSuite - 
+2019-03-28T15:51:54.5998770-05:00:#1: Default - 
+2019-03-28T15:51:54.5998770-05:00:#2: ScoreCardUiAutomationSuite - 
+2019-03-28T15:51:54.5998770-05:00:#8: NavBarExists - 
+2019-03-28T15:51:54.6518828-05:00:#9: Verify nav is displayed - TestAssembly:ScoreCardUiAutomationSuite/Feature:NavBarExists/Scenario:Verify+nav+is+displayed
+2019-03-28T15:51:54.6518828-05:00:End: Test Suite Dump
+2019-03-28T15:51:54.6859030-05:00:Thread#0:Scheduler: get next test for thread 0
+2019-03-28T15:51:54.6888896-05:00:Thread#:Scheduler: testitem #9 from normal test queue 
+2019-03-28T15:51:54.6888896-05:00:Thread#0:Scheduler: considering testitem #9 for thread 0
+2019-03-28T15:51:54.6959085-05:00:Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+2019-03-28T15:51:54.6959085-05:00:Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+2019-03-28T15:51:54.6959085-05:00:Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+2019-03-28T15:51:54.6959085-05:00:Thread#0:Scheduler: using testitem #9 for thread 0
+2019-03-28T15:51:54.6978848-05:00:Thread#0:Scheduler: Test #9 is scheduled for thread
+2019-03-28T15:51:54.6988972-05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-03-28T15:51:54.7028877-05:00:Thread #0: creating new test thread executor for ScoreCardUiAutomationSuite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-03-28T15:51:54.7048879-05:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-03-28T15:51:54.7058901-05:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-03-28T15:51:54.7058901-05:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-03-28T15:51:55.2229250-05:00:Thread#0: Test #9/0 is started on thread #0
+2019-03-28T15:51:55.4259428-05:00:Thread#0:T:-> Loading plugin D:\specflow-protractor-sc-poc\ScoreCardUiAutomationSuite\ScoreCardUiAutomationSuite\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-03-28T15:51:55.4689607-05:00:Thread#0:T:-> Using app.config
+2019-03-28T15:51:55.5419549-05:00:Thread#0:B:Given I am logged in as a scorecard user
+2019-03-28T15:51:55.8869912-05:00:Thread#0:T:error: Interface cannot be resolved: OpenQA.Selenium.IWebDriver (resolution path: ScoreCardUiAutomationSuite.Steps.BaseSteps->Protractor.NgWebDriver)
+2019-03-28T15:51:55.8879879-05:00:Thread#0:B:When I view my 'scorecard page'
+2019-03-28T15:51:55.8939926-05:00:Thread#0:T:skipped because of previous errors
+2019-03-28T15:51:55.8939926-05:00:Thread#0:B:Then I should see the 'scorecard nav' displayed with the FPS Logo
+2019-03-28T15:51:55.8949807-05:00:Thread#0:T:skipped because of previous errors
+2019-03-28T15:51:55.9169889-05:00:Thread#0:TestItem#9:Scheduler: reschedule tests for testitem #9
+2019-03-28T15:51:55.9180026-05:00:Thread#0:Scheduler: get next test for thread 0
+2019-03-28T15:51:55.9180026-05:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #9
+2019-03-28T15:51:55.9180026-05:00:Thread#0:Scheduler: considering testitem #9 for thread 0
+2019-03-28T15:51:55.9180026-05:00:Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+2019-03-28T15:51:55.9180026-05:00:Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+2019-03-28T15:51:55.9180026-05:00:Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+2019-03-28T15:51:55.9180026-05:00:Thread#0:Scheduler: using testitem #9 for thread 0
+2019-03-28T15:51:55.9180026-05:00:Thread#0:Scheduler: Test #9 is scheduled for thread
+2019-03-28T15:51:55.9180026-05:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-03-28T15:51:55.9389868-05:00:Thread#0: Test #9/0 is finished on thread #0 as Failed within 0.7160618 seconds
+2019-03-28T15:51:55.9419862-05:00:Thread#0: Test #9/1 is started on thread #0
+2019-03-28T15:51:55.9419862-05:00:Thread#0:B:Given I am logged in as a scorecard user
+2019-03-28T15:51:55.9439872-05:00:Thread#0:T:error: Interface cannot be resolved: OpenQA.Selenium.IWebDriver (resolution path: ScoreCardUiAutomationSuite.Steps.BaseSteps->Protractor.NgWebDriver)
+2019-03-28T15:51:55.9439872-05:00:Thread#0:B:When I view my 'scorecard page'
+2019-03-28T15:51:55.9449872-05:00:Thread#0:T:skipped because of previous errors
+2019-03-28T15:51:55.9449872-05:00:Thread#0:B:Then I should see the 'scorecard nav' displayed with the FPS Logo
+2019-03-28T15:51:55.9449872-05:00:Thread#0:T:skipped because of previous errors
+2019-03-28T15:51:55.9459873-05:00:Thread#0:Scheduler: get next test for thread 0
+2019-03-28T15:51:55.9459873-05:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #9
+2019-03-28T15:51:55.9459873-05:00:Thread#0:Scheduler: considering testitem #9 for thread 0
+2019-03-28T15:51:55.9459873-05:00:Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+2019-03-28T15:51:55.9459873-05:00:Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+2019-03-28T15:51:55.9459873-05:00:Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+2019-03-28T15:51:55.9459873-05:00:Thread#0:Scheduler: using testitem #9 for thread 0
+2019-03-28T15:51:55.9459873-05:00:Thread#0:Scheduler: Test #9 is scheduled for thread
+2019-03-28T15:51:55.9459873-05:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-03-28T15:51:55.9469878-05:00:Thread#0: Test #9/1 is finished on thread #0 as Failed within 0.0050016 seconds
+2019-03-28T15:51:55.9469878-05:00:Thread#0: Test #9/2 is started on thread #0
+2019-03-28T15:51:55.9479875-05:00:Thread#0:B:Given I am logged in as a scorecard user
+2019-03-28T15:51:55.9489863-05:00:Thread#0:T:error: Interface cannot be resolved: OpenQA.Selenium.IWebDriver (resolution path: ScoreCardUiAutomationSuite.Steps.BaseSteps->Protractor.NgWebDriver)
+2019-03-28T15:51:55.9489863-05:00:Thread#0:B:When I view my 'scorecard page'
+2019-03-28T15:51:55.9499876-05:00:Thread#0:T:skipped because of previous errors
+2019-03-28T15:51:55.9499876-05:00:Thread#0:B:Then I should see the 'scorecard nav' displayed with the FPS Logo
+2019-03-28T15:51:55.9499876-05:00:Thread#0:T:skipped because of previous errors
+2019-03-28T15:51:55.9509877-05:00:Thread#0:Scheduler: get next test for thread 0
+2019-03-28T15:51:55.9509877-05:00:Thread#:Scheduler: at the end of normal test queue
+2019-03-28T15:51:55.9509877-05:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-03-28T15:51:55.9509877-05:00:Thread#0:Scheduler: No more tests for thread
+2019-03-28T15:51:55.9529956-05:00:Thread#0: Test #9/2 is finished on thread #0 as Failed within 0.0060078 seconds
+2019-03-28T15:51:55.9709893-05:00:Appdomain Disposed
+2019-03-28T15:51:55.9729899-05:00:Trying to cancel thread
+2019-03-28T15:51:55.9729899-05:00:Thread cancelled
+2019-03-28T15:51:55.9829992-05:00:Thread#-1:Scheduler: get next test for thread -1
+2019-03-28T15:51:55.9829992-05:00:Thread#:Scheduler: at the end of normal test queue
+2019-03-28T15:51:55.9829992-05:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-28T15:51:55.9899955-05:00;Thread#14;Info;test run finished
+2019-03-28T15:51:55.9909973-05:00;Thread#14;Info;publishing test results
+2019-03-28T15:51:56.0319954-05:00;Thread#14;Info;test results published
+2019-03-28T15:51:56.0319954-05:00;Thread#14;Info;generating reports
+2019-03-28T15:51:56.2060092-05:00;Thread#14;Info;Starting external report generation process
+2019-03-28T15:51:59.5452835-05:00;Thread#14;Info;Successfully generated reports.
+2019-03-28T15:51:59.5482864-05:00;Thread#14;Info;Successfully generated reports
+2019-03-28T15:51:59.5602873-05:00:Total: 1 (test executions: 3)
+2019-03-28T15:51:59.5622879-05:00:Succeeded: 0
+2019-03-28T15:51:59.5632914-05:00:Ignored: 0
+2019-03-28T15:51:59.5642876-05:00:Pending: 0
+2019-03-28T15:51:59.5642876-05:00:Skipped: 0
+2019-03-28T15:51:59.5652877-05:00:Failed: 1
+2019-03-28T15:51:59.5803017-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-03-28T15:51:59.5803017-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\specflow-protractor-sc-poc\ScoreCardUiAutomationSuite\TestResults\TestRunReport.html'
+========== End of log file ==========
